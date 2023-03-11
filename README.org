@@ -19,3 +19,6 @@ However, Terraform [may store secrets](https://developer.hashicorp.com/terraform
 
 ** Secrets
 For later development, I believe it may be possible to generate secrets on the fly with Terraform. Once this is in place, it may be possible to store state in version control.
+
+** Useful commands
+init, plan, apply, validate, format, refresh, show, destroy
