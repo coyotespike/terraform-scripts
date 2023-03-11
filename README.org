@@ -1,0 +1,13 @@
+#+title: Readme
+
+* Terraform Cloud Management
+
+This repo houses my ever-growing collection of Terraform modules to manage GitHub, AWS, Digital Ocean, and so on.
+
+By using IaC everywhere, you are never configuring cloud providers: you are developing a modular and reusable resource for GitOps, MLOps, DevOps...and you're saving your hair. Clicking through GUIs, yeck.
+
+Each folder contains a readme to describe how to apply the scripts.
+
+** Environmental Variables
+
+Terraform will grab variables defined in `.tfvars` or `.bash_profile`. I couldn't get it to read from a `.env` file. Eventually I'm sure I'll want it to read SSH keys automatically.
