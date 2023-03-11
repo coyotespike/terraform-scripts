@@ -4,3 +4,6 @@
 tmp/
 
 terraform.tfvars
+*.tfstate
+*.tfstate.backup
+**/*/.terraform/providers/**
