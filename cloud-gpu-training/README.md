@@ -1,5 +1,3 @@
-#+title: Readme
-
 *** Documentation
 
 An example of setting up remote cloud environment for training a machine learning model using [Terraform Provider Iterative](https://github.com/iterative/terraform-provider-iterative).
@@ -20,8 +18,7 @@ This resource will:
 You can install all the required drivers and dependencies "manually" via a script, you can use an existing Docker image, build your own, or just use the convenient nvidia image pre-packaged with CUDA 11.3 GPU drivers.
 
 *** CPU Script for Reference
-
-```
+#+begin_src
 # Basic (CPU) version
 # This task is the only resource the iterative provider offers
 # example-basic is simply the name of the TF resource defined here
@@ -45,4 +42,4 @@ resource "iterative_task" "example-basic" {
     python3 train.py --output results-basic/metrics.json
   END
 }
-```
+#+end_src

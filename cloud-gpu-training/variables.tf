@@ -8,3 +8,9 @@ variable "AWS_SECRET_ACCESS_KEY" {
   default   = "gh_blah_blah"
   sensitive = true
 }
+
+variable "GOOGLE_APPLICATION_CREDENTIALS" {
+  type      = string
+  default   = "gh_blah_blah"
+  sensitive = true
+}

@@ -1,5 +1,3 @@
-#+title: Readme
-
 * Terraform Cloud Management
 
 This repo houses my ever-growing collection of Terraform modules to manage GitHub, AWS, Digital Ocean, and so on.
