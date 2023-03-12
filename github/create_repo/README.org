@@ -1,12 +1,12 @@
 * Create Repo
 
 - Drop a GH access token into terraform.tfvars.
-- Create a new resource block in `create_repo.tf`, leaving the old ones
+- Create a new resource block in `create_repo.tf`, leaving the old ones, so they grow over time
 - run `terraform init`
 - run `terraform plan`
 - optionally, run `terraform validate` and `terraform fmt`
 - run `terraform apply`
-- Then, `terraform get` to list all resources and see the newly-created SSH/HTTPS URL
+- Then, `terraform show` to list all resources and see the newly-created SSH/HTTPS URL
 
 Thanks to [Tony Lixu](https://archive.ph/pMUCo)
 
